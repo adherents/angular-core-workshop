@@ -4,6 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NxModule } from '@nrwl/nx';
 import { MaterialModule } from '@workshop/material';
 import { UiLoginModule } from '@workshop/ui-login';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     NxModule.forRoot(),
     BrowserAnimationsModule,
+    HttpClientModule,
     MaterialModule,
     UiLoginModule,
     AppRoutingModule
