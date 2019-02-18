@@ -102,6 +102,13 @@
       "targetDate": null,
       "completionDate": null,
       "customerId": "1"
+    },
+    {
+      "id": "CHzKzrX",
+      "title": "Store project",
+      "details": "some details",
+      "percentComplete": 50,
+      "approved": true
     }
   ]
 }
