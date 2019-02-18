@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ProjectsService, Project } from '@workshop/core-data';
-import { APP_ID_RANDOM_PROVIDER } from '@angular/core/src/application_tokens';
-import { resultMemoize } from '@ngrx/store';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -60,9 +58,9 @@ export class ProjectsComponent implements OnInit {
 
   updateProject(project) {
     this.projectsService.update(project)
-    .subscribe(() => {
-      this.getProjects();
-      this.resetProject();
+      .subscribe(() => {
+        this.getProjects();
+        this.resetProject();
     });
   }
 

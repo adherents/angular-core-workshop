@@ -96,7 +96,7 @@
       "id": "1",
       "title": "Project HOLLA!",
       "details": "This is a sample project",
-      "percentComplete": 20,
+      "percentComplete": 35,
       "approved": false,
       "startDate": null,
       "targetDate": null,
@@ -105,7 +105,7 @@
     },
     {
       "id": "CHzKzrX",
-      "title": "Store project",
+      "title": "Store project test",
       "details": "some details",
       "percentComplete": 50,
       "approved": true
