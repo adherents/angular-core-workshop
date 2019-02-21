@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { MaterialModule } from '@workshop/material';
 
 import { ProjectsRoutingModule } from './projects-routing.module';
 import { ProjectsComponent } from './projects.component';
 import { ProjectsListComponent } from './projects-list/projects-list.component';
 import { ProjectsDetailsComponent } from './projects-details/projects-details.component';
+import { CoreDataModule } from '@workshop/core-data';
 
 @NgModule({
   declarations: [ProjectsComponent, ProjectsListComponent, ProjectsDetailsComponent],
@@ -14,7 +15,9 @@ import { ProjectsDetailsComponent } from './projects-details/projects-details.co
     CommonModule,
     ProjectsRoutingModule,
     MaterialModule,
-    FormsModule
+    ReactiveFormsModule,
+    FormsModule,
+    CoreDataModule
   ],
   exports: [ProjectsComponent]
 })
